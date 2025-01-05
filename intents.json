@@ -1,0 +1,101 @@
+{
+  "intents": [
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Tạm biệt",
+              "Chào tạm biệt",
+              "Bye",
+              "Tạm biệt nhé",
+              "Hẹn gặp lại"
+          ],
+          "responses": [
+              "Tạm biệt! Hẹn gặp lại bạn sau.",
+              "Chúc bạn một ngày tốt lành!"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Cảm ơn",
+              "Cảm ơn bạn",
+              "Thanks",
+              "Cảm ơn nhiều nhé",
+              "Rất cảm ơn"
+          ],
+          "responses": [
+              "Không có chi!",
+              "Rất vui vì có thể giúp được bạn!",
+              "Bạn không cần cảm ơn đâu!"
+          ]
+      },
+      {
+          "tag": "help",
+          "patterns": [
+              "Tôi cần giúp đỡ",
+              "Bạn có thể giúp gì không?",
+              "Giúp tôi với",
+              "Tôi cần hỗ trợ"
+          ],
+          "responses": [
+              "Tôi có thể giúp bạn với nhiều thông tin. Bạn cần gì nào?",
+              "Hãy cho tôi biết bạn đang gặp vấn đề gì để tôi có thể hỗ trợ."
+          ]
+      },
+      {
+          "tag": "order_status",
+          "patterns": [
+              "Kiểm tra đơn hàng",
+              "Đơn hàng của tôi đang ở đâu?",
+              "Tình trạng đơn hàng",
+              "Đơn hàng đã đến đâu?"
+          ],
+          "responses": [
+              "Xin vui lòng cung cấp mã đơn hàng để tôi kiểm tra giúp bạn.",
+              "Bạn có thể cho tôi biết mã đơn hàng của bạn không?"
+          ]
+      },
+      {
+        "tag": "quen_matkhau",
+        "patterns": [
+            "Quên mật khẩu",
+            "Tôi đã quên mật khẩu",
+            "Tôi không nhớ mật khẩu của mình"
+        ],
+        "responses": [
+            "Nếu bạn đã quên mật khẩu thì tôi có thể hộ trợ bạn, tôi có thể hướng dẫn bạn để lấy lại mật khẩu",
+            "Ồ rất tiếc về vấn đề mà bạn đã gặp phải, tôi có hướng dẫ bạn cách để lấy lại mật khẩu cảu mình"
+        ]
+    },
+    {
+      "tag": "cach_lay_lai_mk",
+      "patterns": [
+          "Hướng dẫn cho tôi cách lái lại mật khẩu",
+          "Tôi muốn lấy lại mật khẩu thì làm như thế nào",
+          "Giúp tối lấy lại mật khẩu",
+          "Các bước để lấy lại mật khẩu",
+          "Tôi quên mật khẩu, phải làm sao để lấy lại",
+          "Tôi quên mật khẩu, phải làm sao để lấy lại",
+          "Tôi không thể đăng nhập, làm sao để lấy lại mật khẩu"
+      ],
+      "responses": [
+          "Trong phần đăng nhập sẽ có một đường link (Quên mật khẩu). Sau khi ấn vào đườn link đó Hệ thống sẽ yêu cầu bạn nhập Email tài khoản bị quên mật khẩu. Sau khi nhập xong và xác nhận --> Hệ thống sẽ gửi thông báo trong đến Email để đổi mật khẩu"
+      ]
+  },
+  {
+    "tag": "lienhe_nguoichothue",
+    "patterns": [
+        "Tôi muốn liên hệ với người cho thuê phòng thì làm như thế nào",
+        "Liên hệ với người cho thuê",
+        "Làm sao để nhắn tin với người cho thuê",
+        "Tôi muốn hỏi người cho thuê phòng một số câu hỏi, làm sao liên hệ",
+        "Có thể nhắn tin cho người cho thuê bằng cách nào",
+        "Tôi muốn liên hệ với chủ phòng, cần làm gì",
+        "Tôi muốn trao đổi với người cho thuê, làm sao để làm điều đó"
+    ],
+    "responses": [
+        "Có 2 cách để bạn có thể liên hệ người cho thuê \n Cách 1: Bạn vào phần mô tả chi tiết bài đăng, Ở đây sẽ có thông tin về SĐT và Email. Bạn có thẻ dựa vào đó để liên hệ \n Cách 2: Nếu bạn đã đăng nhập vào hệ thống. Trong phần thông tin người dùng sẽ có phần nhắn tin trực tiếp với người cho thuê"
+    ]
+}
+  ]
+}

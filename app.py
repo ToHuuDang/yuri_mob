@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 from dotenv import load_dotenv
+from flask_cors import CORS
 
 from api.message_handler import Message
 
@@ -8,6 +9,8 @@ load_dotenv()
 
 app = Flask(__name__)
 api = Api(app)
+
+CORS(app)
 
 api.add_resource(Message, '/message')
 
